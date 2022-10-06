@@ -1,4 +1,4 @@
-# 1D disk models of disks around black wholes using DISKLAB code of Kees Dullemond and Til Birnstiel's
+# 1D disk models of disks around blackholes using DISKLAB code of Kees Dullemond and Til Birnstiel's
 
 ## Introduction
 
