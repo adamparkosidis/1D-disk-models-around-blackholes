@@ -1,0 +1,25 @@
+dustkappa_ddn01_*.inp, dustkappa_ddn01_*.info
+
+Opacities used in the paper by Dullemond, Dominik & Natta (2001) ApJ 560, 957.
+These are also the opacities used in the CGPLUS program.
+
+Grain radius = 0.1 micron. 
+
+dustkappa_ddn01_silicate.inp:     Astronomical (amorphous) silicate from 
+                                  Laor & Draine (1993) ApJ 402, 441.
+                                  Material density = 3.6 g/cm^3
+
+dustkappa_ddn01_carbon.inp:       Amorphous carbon from
+                                  Preibisch et al. (1993) A&A 279, 577
+                                  Material density = 1.8 g/cm^3
+
+dustkappa_ddn01_waterice.inp:     Amorphous water ice from
+                                  Warren S.G. 1984, Applied Optics 23, 1206-1225
+                                  Material density = 1.0 g/cm^3
+
+dustkappa_ddn01_crystforsterite.inp: Crystalline forsterite from
+                                  Servoin and Piriou, phys. stat. sol. 55, 1973
+                                  Material density = 3.275 g/cm^3
+
+-------------------------------------------------------------------------------------
+

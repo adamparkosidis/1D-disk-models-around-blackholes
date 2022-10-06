@@ -1,0 +1,16 @@
+Here we try to reproduce the result from the paper Powell & Murray-Clay 2017 of
+TW Hydra. They say that they can keep the large grains long enough in the disk
+if they make the disk much more massive than normally assumed (and much more
+massive than derived from CO measurements).
+
+We model the same disk, with the same model assumptions for Sigma_gas(r) and
+T(r). We focus on their 9 mm grains.
+
+Conclusion: Yes, DISKLAB finds similar results.
+
+Note that DISKLAB keeps some large grains in the very outer regions (>300 au).
+This is because the 9 mm grains will have Stokes numbers >> 1 in these
+regions, so they will simply become orbiting bodies. But this does not affect
+the conclusions, because the surface density there is very low (<1e-6 g/cm^2).
+
+2018.04.14

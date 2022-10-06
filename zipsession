@@ -1,0 +1,13 @@
+setenv ZIPFILE disklab_2020.02.13.zip
+
+zip $ZIPFILE disklab_py/tutorial/*.tex disklab_py/tutorial/*.pdf
+zip $ZIPFILE disklab_py/snippets/*.py disklab_py/snippets/*.pdf
+zip $ZIPFILE disklab_py/natconst/*
+zip $ZIPFILE disklab_py/opacity/*
+zip $ZIPFILE disklab_py/disklab/*.py
+zip $ZIPFILE disklab_py/disklab/*.f90
+zip $ZIPFILE disklab_py/disklab/makefile
+zip $ZIPFILE disklab_py/disklab/opacities/*
+zip $ZIPFILE disklab_py/README.md
+zip $ZIPFILE disklab_py/setup.py
+zip $ZIPFILE disklab_py/disklab.egg-info/*

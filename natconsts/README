@@ -1,0 +1,9 @@
+By default the DISKLAB toolset works in CGS units. But you can simply
+change that to SI by copying from this directory the natconst_SI.py
+to disklab/natconst.py
+
+You can undo that by simply copying natconst_CSG.py to disklab/natconst.py
+
+You can also *locally* use SI units in some working directory, while
+keeping the main DISKLAB package in CGS. This is done by copying the
+natconst_SI.py into your local working directory.

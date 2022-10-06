@@ -1,0 +1,21 @@
+Here we reproduce the sharp dust cut-off result of Birnstiel & Andrews (2014).
+In particular their Figs 1 and 2. A few key points to keep in mind:
+
+- The gas radial velocity is non-zero; in fact, there is an outward moving
+   part, like for real viscous spreading. However, for this test case the
+   gas itself is not evolved in time. Physically this is not self-consistent,
+   since the gas moves, yet does not change Sigma_gas in time. But it is,
+   after all, just a test case.
+
+- Another assumption of this test case is that while the viscosity is 1e-3
+   for the computation of the gas velocity, the turbulent mixing of the dust
+   is set to zero. Here this is done by setting the Schmidt number Sc to a very
+   large number. Also this may be physically problematic, but then again, we
+   do not really know what causes the viscosity of the disk. And, again, it is
+   just a test case.
+
+- It is the outward v_gas and the zero d_mix that lead to a dust pile-up at
+   a very narrow radial range around 100 au. This is indeed also what is
+   seen in Fig 2 of the paper.
+
+2018.04.14
