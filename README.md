@@ -7,7 +7,7 @@ At the second part, we use your steady state disks to create thermal disk spectr
 
 ## Description
 
-There is a detailed analysis and graphs which capture the physics  in the `main.py`, where the user can alter parameters of the system and further explore it behavior.
+There is a detailed analysis and graphs which capture the physics  in the `main.ipynb`, where the user can alter parameters of the system and further explore it behavior.
 
 ## DISKLAB
 
