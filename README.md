@@ -34,3 +34,10 @@ $$κ_{ff} = 3.68 ×1022 g_{ff} (1 −Z)(1 + X)ρ_g T^{−7/2} \frac{cm2}{g}$$
 $$κ_{es} = 0.2 ×(1+X) \frac{cm2}{g}$$
 
 and also a combined opacity law that takes both processes into account (a “mock version” by addition of the opacities will do fine here). In the above formulas, $X$ and $Z$ are hydrogen and “metal” abundances (’X’:0.7, ’Z’:0.02 are reasonable choices) and $g_{ff}$ should be set to one for our purposes. In `meanopacity.py` $ρ_g$ is called `rhogas`and $T$ is temperature We won’t need the Planck opacities, you can set them identical to the Rosseland mean.
+
+## Sample synthetic spectra
+
+![snapshot_1](/samples/synthetic_SED.png)
+![snapshot_1](/samples/synthetic_SED_inc.png)
+![snapshot_1](/samples/synthetic_SED_accr_rate.png)
+![snapshot_1](/samples/synthetic_SED_BH_mass.png)
